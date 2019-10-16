@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfoog"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:id="@+id/slo"
+       >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/logoeat" />
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/chewy"
+            android:gravity="center"
+            android:text="@string/slogan"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_below="@+id/slo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsignuup"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:background="@drawable/gradient"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsignIn"
+            android:textStyle="bold"
+            android:background="@drawable/gradient"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

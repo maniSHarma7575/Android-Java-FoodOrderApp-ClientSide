@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "926813596956",
+    "firebase_url": "https://bhandara-eee72.firebaseio.com",
+    "project_id": "bhandara-eee72",
+    "storage_bucket": "bhandara-eee72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926813596956:android:ff9c1bfd24284a73",
+        "android_client_info": {
+          "package_name": "com.example.bhandara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926813596956-vjl3ki1e6shp6492j0tu8gmpuo9i9fe5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhandara",
+            "certificate_hash": "7cc8049407d98cb5f0f5ec32fa657e4ce44c68a7"
+          }
+        },
+        {
+          "client_id": "926813596956-fevcmiimbpp0fb4k49t7ijsaqit1difg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRyotei0yA_MOUfH1rwlwHKGrnu6nRFSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926813596956-fevcmiimbpp0fb4k49t7ijsaqit1difg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
